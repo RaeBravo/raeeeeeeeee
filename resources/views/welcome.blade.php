@@ -8,16 +8,14 @@
 </head>
 <style>
     body {
-        background: linear-gradient(to right, #e0eafc, #f0cff3ff);
+        background: linear-gradient(to right, #11a6d8ff, #b407c4ff);
         font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
         color: #333;
-        
+        box: 500;
         background-size: cover;
         font-family: 'Roboto', sans-serif;
         margin: 0;
-        padding: 0;
+        padding: 500;
         color: #333;
     }
 </style>
