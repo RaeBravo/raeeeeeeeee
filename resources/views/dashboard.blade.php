@@ -5,7 +5,7 @@
 
     <div class="py-6 max-w-7xl mx-auto sm:px-6 lg:px-8" >
         @if ($errors->any())
-            <div class="bg-red-50 border border-red-300 text-red-700 px-5 py-3 rounded mb-6">
+            <div class="bg-red-100 border border-red-500 text-red-700 px-5 py-3 rounded mb-10">
                 <ul class="list-disc ml-5 text-sm">
                     @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
@@ -25,7 +25,7 @@
         <div id="summaryDrawer" class="hidden transition-all duration-300 bg-white shadow rounded-lg p-6 mb-8" >
             <h3 class="text-lg font-semibold mb-4">📊 Booking Summary</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="bg-white border-l-4 border-yellow-400 p-4 rounded shadow-md">
+                <div class="bg-gradiend-to-b from-puple-500 to-blue-500shadow-md"> 
                     <div class="text-sm text-gray-500">Total Bookings</div>
                     <div class="text-3xl font-bold text-gray-800">{{ $stats['total'] }}</div>
                 </div>
