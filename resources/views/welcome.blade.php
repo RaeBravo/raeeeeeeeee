@@ -23,8 +23,8 @@
 
     <div class="min-h-screen flex items-center justify-center px-4">
         <div class="w-full max-w-2xl  shadow-[0_8px_30px_rgba(0,0,0,0.25)] rounded-lg p-8 text-center">
-            <h1 class="text-3xl font-bold mb-4 text-blue-700 flex items-center justify-center">Welcome to the Booking System</h1>
-            <p class="text-gray-600 mb-6 flex items-center justify-center">Plan, schedule, and manage your bookings with ease.</p>
+            <h1 class="text-3xl font-bold mb-4 text-white flex items-center justify-center">Welcome to the Booking System</h1>
+            <p class="text-white mb-6 flex items-center justify-center">Plan, schedule, and manage your bookings with ease.</p>
 
             <div class="flex justify-center gap-4">
                 @auth
@@ -34,11 +34,11 @@
                     </a>
                 @else
                     <a href="{{ route('login') }}"
-                       class="bg-blue-600 hover:bg-blue-700 text-black font-semibold py-2 px-4 rounded transition">
+                       class="bg-blue-600 hover:bg-blue-700 text-black-700 font-semibold py-2 px-4 rounded transition">
                         Login
                     </a>
                     <a href="{{ route('register') }}"
-                       class="bg-blue-600 hover:bg-blue-700 text-black font-semibold py-2 px-4 rounded transition">
+                       class="bg-blue-600 hover:bg-blue-700 text-black-700 font-semibold py-2 px-4 rounded transition">
                         Register
                     </a>
                 @endauth
