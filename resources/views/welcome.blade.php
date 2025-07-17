@@ -8,12 +8,12 @@
 </head>
 <style>
     body {
-        background: linear-gradient(to right, #e0eafc, #cfdef3);
+        background: linear-gradient(to right, #e0eafc, #f0cff3ff);
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
         color: #333;
-        background-image : url("https://images.pexels.com/photos/10085110/pexels-photo-10085110.jpeg");
+        
         background-size: cover;
         font-family: 'Roboto', sans-serif;
         margin: 0;
